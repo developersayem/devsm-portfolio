@@ -5,6 +5,7 @@ import Image from "next/image";
 import CertificateImg from "@/public/certificate.jpg";
 import BlackBeltImg from "@/public/black-belt.png";
 import AboutPic from "@/public/about.png";
+import Link from "next/link";
 
 export default function aboutPage() {
   return (
@@ -178,7 +179,7 @@ export default function aboutPage() {
           </div>
         </div>
       </div>
-      <div>
+      <Link href="/contact">
         <div className="bg-[#F0F2F5] font-bold rounded-2xl shadow-2xl p-5 my-5 hover:scale-75 transition-all ease-in-out duration-500">
           <p className="w-full flex justify-center bg-[#28A745] text-6xl p-10 text-white rounded-2xl ">
             Let&apos;s Talk
@@ -187,7 +188,7 @@ export default function aboutPage() {
             </span>
           </p>
         </div>
-      </div>
+      </Link>
       {/* Daily dev devCard------------------------------------ */}
       {/* <div className=" bg-[#F0F2F5] shadow-2xl rounded-3xl p-5 hover:scale-90 transition-all ease-in-out duration-500">
         <div className="hover:scale-110 transition-all ease-in-out duration-500">
