@@ -63,6 +63,12 @@ const config = {
           from: { height: "0" },
           to: { height: "var(--radix-accordion-content-height)" },
         },
+        handWave: {
+          "0%": { transform: "rotate(0deg)" },
+          "25%": { transform: "rotate(-10deg)" },
+          "75%": { transform: "rotate(12deg)" },
+          "100%": { transform: "rotate(0deg)" },
+        },
         "accordion-up": {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
@@ -71,6 +77,7 @@ const config = {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        handWave: "handWave 1s ease-in-out infinite",
       },
     },
   },

@@ -19,16 +19,6 @@ export default function ProfileCardCom() {
     );
   };
 
-  // const downloadPdf = () => {
-  //   const resumeLink = "/SAYEM MOLLA RESUME.pdf";
-  //   const link = document.createElement("a");
-  //   link.href = resumeLink;
-  //   link.download = "SayemMolla-resume.pdf"; // The name of the file to be downloaded
-  //   document.body.appendChild(link);
-  //   link.click();
-  //   document.body.removeChild(link);
-  // };
-
   return (
     <div className="card card-compact  bg-base-100 shadow-xl">
       <Toaster richColors />
@@ -48,16 +38,15 @@ export default function ProfileCardCom() {
       <div className="card-body">
         <h2 className="card-title text-2xl font-bold">Sayem Molla 👋</h2>
         <p className="text-lg text-[#576076]">
-          A Passionate{" "}
-          <span className="text-black font-bold">MERN Stack Developer</span> 🖥️&
-          Passionate about crafting seamless digital experiences.
+          A Passionate
+          <span className="text-black font-bold pl-1">
+            MERN Stack Developer
+          </span>
+          🖥️& Passionate about crafting seamless digital experiences.
         </p>
         <div className="w-full grid grid-cols-2 gap-2">
           {/* NEED TO UPDATE RESUME LINK */}
-          <button
-            // onClick={downloadPdf}
-            className="btn bg-[#28A745] text-white hover:bg-transparent hover:text-[#28A745] font-bold transition-colors ease-in-out duration-500"
-          >
+          <button className="btn bg-[#28A745] text-white hover:bg-transparent hover:text-[#28A745] font-bold transition-colors ease-in-out duration-500">
             <span>
               <FileDown />
             </span>
@@ -78,7 +67,7 @@ export default function ProfileCardCom() {
             href="https://www.linkedin.com/in/sayem-molla/"
             rel="noopener noreferrer"
             target="_blank"
-            className="flex justify-center items-center w-10 h-10 text-2xl border rounded-lg pointer hover:bg-[#f2f2f2] hover:text-[#28A745] transition-colors ease-in-out duration-500"
+            className="flex justify-center items-center w-10 h-10 text-2xl border rounded-lg pointer hover:bg-[#f2f2f2] hover:text-[#28A745] transition-all ease-in-out duration-500 hover:scale-125"
           >
             <span>
               <FaLinkedin />
@@ -88,7 +77,7 @@ export default function ProfileCardCom() {
             href="https://github.com/developersayem"
             rel="noopener noreferrer"
             target="_blank"
-            className="flex justify-center items-center w-10 h-10 text-2xl border rounded-lg pointer hover:bg-[#f2f2f2] hover:text-[#28A745] transition-colors ease-in-out duration-500"
+            className="flex justify-center items-center w-10 h-10 text-2xl border rounded-lg pointer hover:bg-[#f2f2f2] hover:text-[#28A745] transition-all ease-in-out duration-500 hover:scale-125"
           >
             <span>
               <FaGithub />
@@ -98,7 +87,7 @@ export default function ProfileCardCom() {
             href="https://wa.me/01704878051"
             rel="noopener noreferrer"
             target="_blank"
-            className="flex justify-center items-center w-10 h-10 text-2xl border rounded-lg pointer hover:bg-[#f2f2f2] hover:text-[#28A745] transition-colors ease-in-out duration-500"
+            className="flex justify-center items-center w-10 h-10 text-2xl border rounded-lg pointer hover:bg-[#f2f2f2] hover:text-[#28A745] transition-all ease-in-out duration-500 hover:scale-125"
           >
             <span>
               <FaWhatsapp />
@@ -108,7 +97,7 @@ export default function ProfileCardCom() {
             href="https://www.facebook.com/sayemmolla.dev"
             rel="noopener noreferrer"
             target="_blank"
-            className="flex justify-center items-center w-10 h-10 text-2xl border rounded-lg pointer hover:bg-[#f2f2f2] hover:text-[#28A745] transition-colors ease-in-out duration-500"
+            className="flex justify-center items-center w-10 h-10 text-2xl border rounded-lg pointer hover:bg-[#f2f2f2] hover:text-[#28A745] transition-all ease-in-out duration-500 hover:scale-125"
           >
             <span>
               <FaFacebook />

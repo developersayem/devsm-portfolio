@@ -1,7 +1,6 @@
 "use client";
 
 import {
-  FileDown,
   MoonStar,
   SunMoon,
   Home,
@@ -21,37 +20,55 @@ export default function NavBarCom() {
     <div className="bg-white py-3 rounded-lg flex justify-evenly items-center shadow-lg">
       <div className="text-2xl font-bold">Developer Sayem</div>
       <div className="flex justify-center items-center gap-2">
-        <Link href="" className="btn btn-ghost text-md">
-          <span className="font-extra">
+        <Link
+          href="/"
+          className="btn bg-transparent hover:bg-transparent border-none shadow-none hover:text-[#28A745] transition-colors ease-in-out duration-500 text-lg"
+        >
+          <span>
             <Home />
           </span>
           Home
         </Link>
-        <Link href="" className="btn btn-ghost">
+        <Link
+          href="/about"
+          className="btn bg-transparent hover:bg-transparent border-none shadow-none hover:text-[#28A745] transition-colors ease-in-out duration-500 text-lg"
+        >
           <span>
             <User />
           </span>
           About
         </Link>
-        <Link href="" className="btn btn-ghost">
+        <Link
+          href="/services"
+          className="btn bg-transparent hover:bg-transparent border-none shadow-none hover:text-[#28A745] transition-colors ease-in-out duration-500 text-lg"
+        >
           <span>
             <Layers3 />
           </span>
           Services
         </Link>
-        <Link href="" className="btn btn-ghost">
+        <Link
+          href="/projects"
+          className="btn bg-transparent hover:bg-transparent border-none shadow-none hover:text-[#28A745] transition-colors ease-in-out duration-500 text-lg"
+        >
           <span>
             <FolderGit2 />
           </span>
-          projects
+          Projects
         </Link>
-        <Link href="" className="btn btn-ghost">
+        {/* <Link
+          href="/blogs"
+            className="btn bg-transparent hover:bg-transparent border-none shadow-none hover:text-[#28A745] transition-colors ease-in-out duration-500 text-lg"
+        >
           <span>
             <Rss />
           </span>
           Blogs
-        </Link>
-        <Link href="" className="btn btn-ghost">
+        </Link> */}
+        <Link
+          href="/contact"
+          className="btn bg-transparent hover:bg-transparent border-none shadow-none hover:text-[#28A745] transition-colors ease-in-out duration-500 text-lg"
+        >
           <span>
             <Send />
           </span>
@@ -61,7 +78,7 @@ export default function NavBarCom() {
       <div className="flex justify-center items-center gap-5">
         <button
           onClick={() => setDark(!dark)}
-          className=" btn btn-ghost text-4xl"
+          className=" btn bg-transparent hover:bg-transparent border-none shadow-none hover:text-[#28A745] text-4xl"
         >
           {dark ? (
             <span className="font-bold">

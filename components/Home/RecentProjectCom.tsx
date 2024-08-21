@@ -19,28 +19,41 @@ export default function RecentProjectCom() {
             </span>
           </Link>
         </div>
-        <div className="grid grid-rows-1 gap-5">
-          <div className="rounded-lg w-full h-full scale-90 hover:scale-100 transition-transform duration-500 ease-in-out">
-            <Image
-              className="rounded-lg"
-              src={ProjectPic}
-              alt="Profile Picture"
-              width={0}
-              height={0}
-              layout="responsive"
-              sizes="100vw"
-            />
-          </div>
-          <div className="rounded-lg w-full h-full scale-90 hover:scale-100 transition-transform duration-500 ease-in-out">
-            <Image
-              className="rounded-lg"
-              src={ProjectPic}
-              alt="Profile Picture"
-              width={0}
-              height={0}
-              layout="responsive"
-              sizes="100vw"
-            />
+        <div className="h-[38rem] overflow-y-scroll hide-scrollbar scroll-smooth">
+          <div className="grid grid-rows-1 gap-">
+            <div className="rounded-lg w-full h-full scale-90 hover:scale-100 transition-transform duration-500 ease-in-out">
+              <Image
+                className="rounded-lg"
+                src={ProjectPic}
+                alt="Profile Picture"
+                width={0}
+                height={0}
+                layout="responsive"
+                sizes="100vw"
+              />
+            </div>
+            <div className="rounded-lg w-full h-full scale-90 hover:scale-100 transition-transform duration-500 ease-in-out">
+              <Image
+                className="rounded-lg"
+                src={ProjectPic}
+                alt="Profile Picture"
+                width={0}
+                height={0}
+                layout="responsive"
+                sizes="100vw"
+              />
+            </div>
+            <div className="rounded-lg w-full h-full scale-90 hover:scale-100 transition-transform duration-500 ease-in-out">
+              <Image
+                className="rounded-lg"
+                src={ProjectPic}
+                alt="Profile Picture"
+                width={0}
+                height={0}
+                layout="responsive"
+                sizes="100vw"
+              />
+            </div>
           </div>
         </div>
       </div>

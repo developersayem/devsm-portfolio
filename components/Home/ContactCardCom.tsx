@@ -13,12 +13,12 @@ export default function ContactCardCom() {
           </Marquee>
         </div>
         <div className="my-5">
-          <h2 className="card-title text-4xl font-bold py-2">Let&apos;s👋</h2>
+          <h2 className="card-title text-4xl font-bold py-2">Let&apos;s 👋</h2>
           <h2 className="card-title text-4xl font-bold py-1">Work Together</h2>
         </div>
         <Link
           href="/contact"
-          className=" text-lg text-[#28A745] underline decoration-[#28A745] flex gap-1"
+          className=" text-lg text-[#28A745] underline decoration-[#28A745] flex gap-1 deco"
         >
           Let&apos;s Talk
           <span className="-rotate-45">

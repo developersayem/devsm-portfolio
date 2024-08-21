@@ -26,7 +26,7 @@ const ServicesCom: NextComponentType<NextPageContext, {}, Props> = (
             </span>
           </Link>
         </div>
-        <div className="grid grid-cols-4 gap-5 mt-1">
+        <div className="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-1">
           {/* //CARD 1 */}
           <div className="bg-[#F0F2F5] rounded-lg p-5 hover:bg-[#28a746] transition-all ease-in-out duration-500 scale-100 hover:scale-110 text-[#646569] hover:text-white">
             <div className="bg-white p-8 flex justify-center items-center rounded-lg">
