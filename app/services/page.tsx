@@ -93,8 +93,8 @@ export default function servicesPage() {
             <div className="bg-white w-full flex justify-start items-center rounded-lg transition-all ease-in-out duration-500 scale-100 hover:scale-110 hover:-translate-y-2">
               <div className="p-5 font-bold">
                 <ul>
-                  {texts?.map((text) => (
-                    <li className="flex justify-start items-center">
+                  {texts?.map((text, index) => (
+                    <li key={index} className="flex justify-start items-center">
                       <Dot size={48} />
                       {text}
                     </li>
